@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="registration.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />" 
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <div class="hero">
+      <!--header secion starts here-->
+        <header> 
+            
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                </ul>
+                <a href="login.html" class="btn">Login</a>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div class="form">
+                <form id="survey-form">
+                    <h3>Registration Form</h3>
+
+                    <label id="name-label">First Name</label>
+                    <input type="text" id="name" name="name" class="form" required placeholder="Enter your first name"><br><!--name--->
+
+                    <label id="name-label">Last Name</label>
+                    <input type="text" id="name" name="name" class="form" required placeholder="Enter your Last name"><br><!--name--->
+
+                    <label id="email-label">Email</label>
+                    <input type="email" id="email" name="email" class="form" required placeholder="Insert your email"><br><!---email-->
+
+                    <label id="number-label">Phone Number</label>
+                    <input type="number" id="number" name="number" class="form" placeholder="Mobile no."  required><br><!---number-->
+
+                    <label id="number-label">Age</label>
+                    <input type="number" id="number" name="number" class="form" placeholder="Age" min=18 max=60 required><br><!---number-->
+
+                    <label id="carrer">Gender</label>
+                    <select id="dropdown" name="role" required>
+                    <option disabled selected value>
+                        Select your gender
+                    </option>
+                    <option value="male">
+                        Male
+                    </option>
+                    <option value="female">
+                        Female
+                    </option>
+                    <option value="3">
+                        I prefer not to say
+                    </option>
+
+                    
+                    <label id="name-label">Country</label>
+                    <input type="text" id="name" name="name" class="form" required value="Nigeria"><br><!--country--->
+
+                    <label id="name-label">State/Province</label>
+                    <input type="text" id="name" name="name" class="form" required placeholder="State/Province"><br><!--state--->
+
+                    <label id="password-label">Password</label>
+                    <input type="password" name="password" placeholder="Password" required />
+
+                    <label id="password-label">Re-type Password</label>
+                    <input type="password" name="password" placeholder="Re-type Password" required />
+                    
+                    
+                    <input type="submit" id="submit" name="submit" value="Submit">
+                </form><!---survey-form--->
+
+            </div>
+        </main>
+    
+        <footer>
+            <p class="copyright">digitalnobsx© 2022 </p>
+        </footer>
+    </div>
+</body>
+</html>

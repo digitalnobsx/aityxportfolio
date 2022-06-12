@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #152238;
+    overflow-x: hidden;
+}
+
+.hero{
+    position: relative;
+    height: 85vh;
+    width: 100%;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+}
+nav{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 84%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #00B5E2;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #00B5E2;
+    transition: 4s;
+}
+.btn{
+    background-color: #00B5E2;
+    color: #152238;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    color: white;
+    margin: 20px 0;
+    font-size: 70px;
+}
+
+.detel p{
+    color: #ffe5b4ce;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 27px;
+    
+}
+.detel a{
+    background: #00B5E2;
+    padding: 22px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #152238;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.logos i{
+    font-size: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 0px 10px;
+    color: #00B5E2;
+}
+
+.images{
+    width: 55%;
+    height:80%;
+    position: absolute;
+    bottom: 0;
+    right: -300px;
+}
+.images img{
+    position: absolute;
+    
+}
+.images .shape{
+    width: 1100px;
+}
+.images .portrait {
+    position: absolute;
+    height:600px;
+    width:600px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px dotted #00B5E2;
+}
+.portrait img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.images:hover .shape{
+    left: -300px;
+}
+.hero-2{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.about{
+    background: #152238;
+}
+
+.title h2{
+    color: white;
+    margin: 30px auto 40px;
+    font-size: 75px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 445px;
+    width: 385px;
+    padding: 20px 35px;
+    background: #445777;
+    border-radius: 20px;
+    margin: 15px 15px 80px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #00B5E2;
+}
+
+.card h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: white;
+    padding-top: 40px;
+}
+.para ul{
+    margin: 20px auto;
+    font-size: 30px;
+    list-style: circle;
+    line-height: 30px;
+    margin-bottom: 25px;
+    padding-left: 40px;
+    color: #ffe5b4ce;
+    font-weight: bold;
+}
+.para li{
+    padding: 10px;
+    text-align: left;
+}
+
+button{
+    background-color: #00B5E2;
+    color: #152238;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 30px 90px;
+    border-radius: 40px;
+    transition: .4s;
+    margin: auto;
+    display: block;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #00B5E2;
+    cursor: pointer;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background-color: #445777;
+}
+
+
+footer .copyright {
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    bottom:0;
+}
