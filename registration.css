@@ -1,84 +1,80 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    box-sizing: border-box;
-}
-body{
-    background-color: #152238;
-    overflow-x: hidden;
-}
-
-.hero{
-    position: relative;
-    height: 100vh;
+html, body {
+    height: 100%;
     width: 100%;
-    padding: 15px 0px;
-    margin-bottom: 10px;
-}
-nav{
-    font-size: 25px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-    width: 84%;
-}
-.logo{
-    color: white;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-span{
-    color: #00B5E2;
-}
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 25px;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-nav ul li a:hover{
-    color: #00B5E2;
-    transition: 4s;
-}
-.btn{
-    background-color: #00B5E2;
-    color: #152238;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 35px;
-    transition: transform .4s;
-}
-.btn:hover{
-    transform: scale(1.2);
-}
+  }
+  *{
+      padding: 0;
+      margin: 0;
+      font-family: 'Josefin Sans', sans-serif;
+      box-sizing: border-box;
+  }
+  body{
+      background-color: #152238;
+      overflow-x: hidden;
+  }
+  
+  .hero{
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      padding: 5px 0px;
+      margin-bottom: 10px;
+  }
+  nav{
+      font-size: 15px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+      width: 84%;
+  }
+  .logo{
+      color: white;
+      font-size: 30px;
+      letter-spacing: 1px;
+      cursor: pointer;
+  }
+  span{
+      color: #00B5E2;
+  }
+  nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px 25px;
+  }
+  nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: capitalize;
+  }
+  nav ul li a:hover{
+      color: #00B5E2;
+      transition: 4s;
+  }
+  .btn{
+      background-color: #00B5E2;
+      color: #152238;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 5px 15px;
+      border-radius: 35px;
+      transition: transform .4s;
+  }
+  .btn:hover{
+      transform: scale(1.2);
+  }
 
-.form{
-    display: block;
-    padding: 50px auto;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 1px transparent rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    margin-bottom: 5px;
-    position: relative;
-}
+
   #survey-form{
     margin: 100px auto;
-    width: 60%;
+    width: 40%;
     background-color: #44577734;
-    padding: 20px 0px 20px 300px;
+    padding: 20px 0px 20px 30px;
     border-radius: 12px;
+    align-items: center;
     
 }
 form *{
@@ -87,11 +83,12 @@ form *{
     letter-spacing: 0.5px;
     outline: none;
     border: none;
+    margin: 10px;
 }
 
 
 form h3{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 42px;
     text-align: center;
@@ -101,22 +98,23 @@ form h3{
     border: 1px solid #777;
     border-radius: 5px;
     font-family: inherit;
-    padding: 15px;
     display: block;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
-    height: 70px;
-    margin: 10px;
+    height: 40px;
+    margin: 5px;
     color: #152238;
     
 }
 .form input{
-    width: 80%;
+    width: 70%;
+  
 }
 .form select {
-    width: 60%;
-    height: 50px;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 30px
 }
 .form option{
     background-color: #152238;
@@ -124,52 +122,52 @@ form h3{
 }
 
 label{
-    font-size: 22px;
+    font-size: 15px;
     padding: 15px 0;
-    max-width: 70px;
+    max-width: 700px;
+    margin-top: 20px;
+    color: white;
     
 }
 
 
 ::placeholder{
     color: #152238;
-    font-size: 20px;
+    font-size: 14px;
 }
-::value{
-    color: #152238;
-    font-size: 20px;
-}
+
 
 
   
   #submit{
     display: block;
-    width: 80%;
+    width: 60%;
     padding: 0.75rem;
     background: #00B5E2;
     color: #152238;
     border-radius: 15px;
     cursor: pointer;
-    margin: 50px;
+    margin: 30px;
   }
   
   
   
 
-footer {
+  footer {
     position:relative;
     bottom:0;
     width:100%;
-    height:60px;
+    height:25px;
     background-color: #445777;
+    margin-top: 50px;
 }
 
 
 footer .copyright {
     width: 100%;
     color: #fff;
-    line-height: 40px;
-    font-size: 18px;
+    line-height: 30px;
+    font-size: 12px;
     text-align: center;
     bottom:0;
 }
